@@ -52,7 +52,7 @@ header {
 /* Divider */
 hr.solid {
     border-top: 3px solid #f4f4f4;
-    width: 70%;
+    width: 50%;
     margin: 0px 0;
     margin-left: auto;
     margin-right: auto;
@@ -79,6 +79,7 @@ footer {
   .navigation li {
     text-align: center;
     flex: 0 0 auto; /* Prevent the items from stretching */
+    padding: 0 5px;
   }
   
   .navigation a {
