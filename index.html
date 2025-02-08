@@ -5,21 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Personal Website Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <!-- Header & Navbar Menu -->
-    <section class="mb-3">
-      <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-          <button data-mdb-button-init class="navbar-toggler ms-auto" type="button" data-mdb-collapse-init
-            data-mdb-target="#navbarToggleExternalContent3" aria-controls="navbarToggleExternalContent3"
+    <!-- Header & Navbar -->
+    <header class="mb-3">
+      <nav class="navbar bg-body-tertiary justify-content-center">
+        <div class="container-fluid justify-content-end">
+          <button data-mdb-button-init class="navbar-toggler first-button" type="button" data-mdb-collapse-init
+            data-mdb-target="#navbarToggleExternalContent9" aria-controls="navbarToggleExternalContent9"
             aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
+            <div class="animated-icon1"><span></span><span></span><span></span></div>
           </button>
         </div>
       </nav>
-      <div class="collapse" id="navbarToggleExternalContent3">
+      <div class="collapse" id="navbarToggleExternalContent9">
         <div class="bg-body-tertiary shadow-3 p-4">
           <button data-mdb-button-init data-mdb-ripple-init
             class="btn btn-link btn-block border-bottom m-0">Link 1</button>
@@ -29,34 +29,42 @@
             3</button>
         </div>
       </div>
-    </section>
-    <!-- About Me Section -->
-    <section>
-      <img src="..." alt="...">
-      <p>paragraph that describes myself that is very descriptive...</p>
-    </section>
-    <!-- Portfolio Section -->
-    <section>
-      <img src="..." alt="...">
-      <p>a description</p>
-      <a href="url">link to Github</a>
-      <a href="url">link deployed project</a>
-    </section>
-    <!-- Resume -->
-    <section>
-      <img src="..." alt="...">
-      <a href="url">link to download resume</a>
-    </section>
+    </header>
+    <!-- Main Content -->
+    <main>
+      <!-- About Me Section -->
+      <section class="mb-4">
+        <img src="about-me.jpg" alt="About me image" class="img-fluid">
+        <p>A paragraph that describes myself in detail...</p>
+      </section>
+      <!-- Portfolio Section -->
+      <section class="mb-4">
+        <img src="portfolio-project.jpg" alt="Portfolio project preview" class="img-fluid">
+        <p>A description of the project</p>
+        <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+        <a href="https://project-demo.com" target="_blank" rel="noopener noreferrer">Deployed Project</a>
+      </section>
+      <!-- Resume Section -->
+      <section class="mb-4">
+        <img src="resume-preview.jpg" alt="Resume preview" class="img-fluid">
+        <a href="resume.pdf" download>Download Resume</a>
+      </section>
 
-    <!-- Link to Online Presence -->
-    <section>
-      <a href="url">link to Github</a>
-      <a href="url">link LinkedIn</a>
-      <a href="url">link to Medium</a>
-    </section>
+      <!-- Online Presence Section -->
+      <section class="mb-4">
+        <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://medium.com/@your-profile" target="_blank" rel="noopener noreferrer">Medium</a>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-body-tertiary p-3 text-center">
+      <a href="mailto:your-email@example.com">Contact Me</a>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="nav.js"></script>
   </body>
-  <!-- Contact Info -->
-  <footer>
-    <a href="url">link to email</a>
-  </footer>
 </html>
