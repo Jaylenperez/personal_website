@@ -1,3 +1,4 @@
+/* Inter Google Font */
 .inter-font {
     font-family: "Inter", serif;
     font-optical-sizing: auto;
@@ -5,6 +6,7 @@
     font-style: normal;
 }
 
+/* Body Styles */
 body {
     color: #f4f4f4;
     background-image: url('images/background.jpeg');
@@ -27,30 +29,31 @@ header {
 /* PROFILE IMAGE & SOCIAL LINKS STYLES */
 .profile-section {
     text-align: center;
-  }
+}
   
-  .social-links {
+.social-links {
     display: flex;
     justify-content: center;
     gap: 20px; /* Adjust spacing between the icons */
     margin-top: 17px;
-  }
-  
-  .social-links img {
+}
+
+/* LOGOS */
+.social-links img {
     width: 40px; /* Adjust size as needed */
     height: 40px;
     transition: transform 0.3s ease;
-  }
+}
   
-  .social-links img:hover {
+.social-links img:hover {
     transform: scale(1.1); /* Add a hover effect */
-  }
+}
   
 /* Divider */
 hr.solid {
     border-top: 3px solid #f4f4f4;
     width: 70%;
-    margin: 4px 0;
+    margin: 0px 0;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
@@ -60,6 +63,7 @@ hr.solid {
 footer {
     text-align: center;
     padding: 20px 0;
+    font-weight: 300;
   }
   
   .navigation {
