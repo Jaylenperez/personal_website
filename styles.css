@@ -1,4 +1,20 @@
-/* Profile Image & Social Links Styles */
+.inter-font {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    color: #f4f4f4;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* PROFILE IMAGE & SOCIAL LINKS STYLES */
 .profile-section {
     text-align: center;
   }
@@ -7,7 +23,7 @@
     display: flex;
     justify-content: center;
     gap: 20px; /* Adjust spacing between the icons */
-    margin-top: 20px;
+    margin-top: 17px;
   }
   
   .social-links img {
@@ -22,14 +38,14 @@
   
 /* Divider */
 hr.solid {
-    border-top: 3px solid #bbb;
-    width: 60%;
-    margin: 10px 0;
+    border-top: 3px solid #f4f4f4;
+    width: 70%;
+    margin: 4px 0;
     margin-left: auto;
     margin-right: auto;
 }
 
-/* Navigation Menu */
+/* NAVIGATION MENU STYLES */
 footer {
     text-align: center;
     padding: 20px 0;

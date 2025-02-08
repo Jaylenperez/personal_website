@@ -6,8 +6,11 @@
     <title>Personal Website Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; overflow: hidden;">
     <style>
       body {
         background-image: url('images/background.jpeg');
@@ -18,21 +21,29 @@
     </style>
     <!-- Header & Navbar -->
     <header>
-      <h1 class="text-center">Jaylen Perez</h1>
+      <h1 class="text-center" style="font-family: 'Inter', sans-serif; font-size: 120px;">Jaylen Perez</h1>
     </header>
     <!-- Main Content -->
     <main>
       <!-- About Me -->
-      <section>
-        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque eros in felis sollicitudin, non hendrerit neque tincidunt. Sed euismod, ligula non malesuada ullamcorper, mauris libero venenatis justo, at luctus sem turpis ut lacus. </p>
-        <p class="text-center">Praesent euismod, lorem vel tempus vestibulum, arcu quam dictum sem, ac efficitur urna justo ut odio. </p>
+      <section class="about-me">
+        <p class="text-center" style="font-family: 'Inter', sans-serif; font-size: 17px;">
+          Hello! My name is Jaylen Perez, and I am currently studying computer science with a focus on<br>
+          full-stack web development at Atlas School in Tulsa, Oklahoma. With a year of experience in<br>
+          software development, I’ve gained a solid understanding of software patterns, best practices,<br>
+          and strong organizational skills.I have a keen eye for detail and am passionate about problem-solving.<br></p>
+
+        <p class="text-center" style="font-family: 'Inter', sans-serif; font-size: 17px;">
+          I also have experience with version control and Git, and I thrive in collaborative, team-oriented<br>
+          environments. Committed to continuous learning and adaptability, I’m excited to grow in the tech<br>
+          field and contribute to impactful projects.</p>
       </section>
 
       <!-- Profile Section -->
       <section class="profile-section">
-        <!-- Prpfile Image -->
+        <!-- Profile Image -->
         <div class="profile-image">
-          <img src="images/profile.PNG" class="d-block mx-auto" alt="Profile Image" width="180" height="180">
+          <img src="images/profile.PNG" class="d-block mx-auto" style="border-radius: 50%;" alt="Profile Image" width="160" height="160">
         </div>
         <!-- Social Media Links -->
         <div class="social-links">
@@ -46,14 +57,14 @@
             <img class="medium" src="images/medium.png">
           </a>
         </div>
-        <!-- Divider -->
-        <hr class="solid">
       </section>
 
     </main>
 
     <!-- Footer -->
     <footer>
+      <!-- Divider -->
+      <hr class="solid">
       <nav>
         <ul class="navigation">
           <li><a href='#' data-item='Home'>HOME</a></li>
