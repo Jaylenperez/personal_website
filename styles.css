@@ -53,6 +53,7 @@ hr.solid {
     margin: 4px 0;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
 }
 
 /* NAVIGATION MENU STYLES */
@@ -87,6 +88,6 @@ footer {
   }
   
   .navigation a:hover {
-    color: #007BFF;
+    color: #A5D8FF;
   }
   
