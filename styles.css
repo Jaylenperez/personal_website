@@ -1,0 +1,65 @@
+/* Profile Image & Social Links Styles */
+.profile-section {
+    text-align: center;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust spacing between the icons */
+    margin-top: 20px;
+  }
+  
+  .social-links img {
+    width: 40px; /* Adjust size as needed */
+    height: 40px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-links img:hover {
+    transform: scale(1.1); /* Add a hover effect */
+  }
+  
+/* Divider */
+hr.solid {
+    border-top: 3px solid #bbb;
+    width: 60%;
+    margin: 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Navigation Menu */
+footer {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between; /* Distribute the items evenly with equal space */
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px; /* Restrict the menu width to center it */
+    width: 100%;
+  }
+  
+  .navigation li {
+    text-align: center;
+    flex: 0 0 auto; /* Prevent the items from stretching */
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #f4f4f4;
+    display: block;
+    padding: 10px 20px; /* Adds some horizontal padding for clickable area */
+    transition: color 0.3s ease;
+  }
+  
+  .navigation a:hover {
+    color: #007BFF;
+  }
+  
