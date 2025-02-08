@@ -11,15 +11,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   </head>
-  <body style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; overflow: hidden;">
+  <body>
     <style>
-      body {
-        background-image: url('images/background.jpeg');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        font-family: "Inter", serif;
-        font-style: normal;
+      @media (max-width: 1200px) {
+        body {
+          overflow: auto; /* Allow scrolling on smaller screens */
+          height: auto;
+        }
       }
     </style>
     <!-- Header & Navbar -->
