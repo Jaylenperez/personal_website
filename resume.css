@@ -13,7 +13,17 @@ body {
 }
 
 .resume-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-top: 20px;
+}
+
+.download-container {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 6px;
 }
 
 /* Divider */
