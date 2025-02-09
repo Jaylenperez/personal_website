@@ -1,0 +1,64 @@
+body {
+    color: #f4f4f4;
+    background-image: url('images/background.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Inter", serif;
+    font-style: normal;
+    height: 100vh;
+    overflow-y: hidden;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.resume-container {
+    padding-top: 20px;
+}
+
+/* Divider */
+hr.solid {
+    border-top: 3px solid #f4f4f4;
+    width: 50%;
+    margin: 0px 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+/* NAVIGATION MENU STYLES */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 300;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between; /* Distribute the items evenly with equal space */
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px; /* Restrict the menu width to center it */
+    width: 100%;
+  }
+  
+  .navigation li {
+    text-align: center;
+    flex: 0 0 auto; /* Prevent the items from stretching */
+    padding: 0 5px;
+  }
+  
+  .navigation a {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    color: #f4f4f4;
+    display: block;
+    padding: 10px 20px; /* Adds some horizontal padding for clickable area */
+    transition: color 0.3s ease;
+  }
+  
+  .navigation a:hover {
+    color: #00B4D8;
+  }
