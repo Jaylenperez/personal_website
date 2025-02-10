@@ -33,8 +33,13 @@ body {
 /* Header and Paragraph Text */
 .text-container {
     color: #000000;
-    padding-top: 25px;
-    margin-bottom: 50px;
+    padding-top: 50px;
+    margin-bottom: 120px;
+}
+
+/* Add space in between heading & subheading */
+.subheading {
+    padding-top: 15px;
 }
 
 /* Project Boxes */
@@ -46,7 +51,7 @@ body {
     border: 3px solid #000;
     background: #FFF;
     width: 335px;
-    height: 150px;
+    height: 170px;
 }
 /* Divider */
 hr.solid {
