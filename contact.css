@@ -1,0 +1,150 @@
+/* Inter Google Font */
+.inter-font {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    color: #f4f4f4;
+    background-image: url('images/background.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Inter", serif;
+    font-style: normal;
+    height: 100vh;
+    overflow-y: hidden;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form {
+    font-family: "Inter", serif;
+    font-style: normal;
+    width:340px;
+    height:440px;
+    background:#e6e6e6;
+    border-radius:8px;
+    box-shadow:0 0 40px -10px #000;
+    margin:calc(50vh - 261px) auto;
+    padding:20px 30px;
+    max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    position:relative
+}
+
+h2 {
+    margin:10px 0;
+    padding-bottom:10px;
+    width:180px;color:#78788c;
+    border-bottom:3px solid #78788c
+}
+
+input {
+    width:100%;
+    padding:10px;box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    transition:all .3s;
+    border-bottom:2px solid #bebed2
+}
+
+input:focus {
+    border-bottom:2px solid #78788c
+}
+
+p:before {
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    font-size:14px;
+    color:#5a5a5a
+}
+
+
+button {
+    float:right;
+    padding:8px 12px;
+    margin:8px 0 0;
+    border:2px solid #78788c;
+    background:0;color:#5a5a6e;
+    cursor:pointer;
+    transition:all .3s
+}
+
+button:hover {
+    background:#78788c;
+    color:#fff
+}
+
+div {
+    content:'Hi';
+    position:absolute;
+    bottom:-15px;
+    right:-20px;
+    background:#50505a;
+    color:#fff;
+    width:320px;
+    padding:16px 4px 16px 0;
+    border-radius:6px;
+    font-size:13px;
+    box-shadow:10px 10px 40px -14px #000
+}
+
+span {
+    margin:0 5px 0 15px
+}
+
+/* Divider */
+hr.solid {
+    border-top: 3px solid #f4f4f4;
+    width: 50%;
+    margin: 0px 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    opacity: 0.2;
+}
+
+/* NAVIGATION MENU STYLES */
+footer {
+    font-family: "Inter", serif;
+    font-style: normal;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 300;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between; /* Distribute the items evenly with equal space */
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px; /* Restrict the menu width to center it */
+    width: 100%;
+  }
+  
+  .navigation li {
+    text-align: center;
+    flex: 0 0 auto; /* Prevent the items from stretching */
+    padding: 0 5px;
+  }
+  
+  .navigation a {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    color: #f4f4f4;
+    display: block;
+    padding: 10px 20px; /* Adds some horizontal padding for clickable area */
+    transition: color 0.3s ease;
+  }
+  
+  .navigation a:hover {
+    color: #00B4D8;
+  }
