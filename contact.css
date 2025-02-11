@@ -181,4 +181,8 @@ footer {
     span {
         margin:0 5px 0 15px
     }
+
+    hr.solid {
+        width: 70%;
+    }
 }

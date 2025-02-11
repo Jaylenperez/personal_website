@@ -108,4 +108,8 @@ footer {
         font-size: 14px; /* Reduce font size */
         padding: 10px 5px; /* Reduce padding */
     }
+
+    hr.solid {
+      width: 70%;
+  }
 }
