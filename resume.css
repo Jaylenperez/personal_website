@@ -27,6 +27,11 @@ body {
     padding-top: 20px;
 }
 
+.resume {
+    width: 440px;
+    height: 569px;
+}
+
 .download-container {
   display: flex;
     justify-content: center;
@@ -84,6 +89,11 @@ footer {
   }
 
   @media (max-width: 480px) {
+    .resume {
+      width: 270px;
+      height: 399px;
+  }
+
     .navigation {
         justify-content: space-between;
         padding: 0 10px;
@@ -96,6 +106,6 @@ footer {
     
     .navigation a {
         font-size: 14px; /* Reduce font size */
-        padding: 5px 0px; /* Reduce padding */
+        padding: 10px 5px; /* Reduce padding */
     }
 }

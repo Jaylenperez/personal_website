@@ -137,7 +137,10 @@ footer {
     }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 480px) {
+    .white-container {
+        height: 450px;
+    }
     .navigation {
         justify-content: space-between;
         padding: 0 10px;

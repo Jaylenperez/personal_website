@@ -26,6 +26,11 @@ header {
     padding-bottom: 5px;
 }
 
+.name {
+    font-size: 120px;
+    font-weight: 300;
+}
+
 .about-me {
   max-width: 800px;  /* Prevents the paragraph from being too wide */
   margin: 0 auto;    /* Centers the section */
@@ -124,3 +129,25 @@ footer {
   .navigation a:hover {
     color: #00B4D8;
   }
+
+  @media (max-width: 480px) {
+    .name {
+      font-size: 50px;
+      font-weight: 300;
+    }
+    
+    .navigation {
+      justify-content: space-between;
+      padding: 0 10px;
+    }
+
+    .navigation li {
+        flex: 1;
+        text-align: center;
+    }
+    
+    .navigation a {
+        font-size: 14px; /* Reduce font size */
+        padding: 5px 0px; /* Reduce padding */
+    }
+}

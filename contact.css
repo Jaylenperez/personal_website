@@ -85,7 +85,7 @@ div {
     content:'Hi';
     position:absolute;
     bottom:-15px;
-    right:-20px;
+    right:-10px;
     background:#50505a;
     color:#fff;
     width:320px;
@@ -148,3 +148,37 @@ footer {
   .navigation a:hover {
     color: #00B4D8;
   }
+
+  @media (max-width: 480px) {
+    .navigation {
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+
+    .navigation li {
+        flex: 1;
+        text-align: center;
+    }
+    
+    .navigation a {
+        font-size: 14px; /* Reduce font size */
+        padding: 10px 5px; /* Reduce padding */
+    }
+
+    div {
+        content:'Hi';
+        position:absolute;
+        bottom:-15px;
+        right:-15px;
+        background:#50505a;
+        color:#fff;
+        width:310px;
+        border-radius:6px;
+        font-size:13px;
+        box-shadow:10px 10px 40px -14px #000
+    }
+    
+    span {
+        margin:0 5px 0 15px
+    }
+}
